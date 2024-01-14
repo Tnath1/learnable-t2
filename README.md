@@ -34,7 +34,7 @@ git pull [remote] [branch]
 * Updates your working directory to reflect the changes.
 
 ## - Explain in simple terms git rebase and the command for it.
-In simple terms, git rebase rewrites commits fromm one branch unto another branch or moves commits from one branch (e.g main) to another branch(e.g develop). The command for that is below: 
+In simple terms, git rebase rewrites commits from one branch unto another branch or moves commits from one branch (e.g main) to another branch(e.g develop). The command for that is below: 
 ```bash
 git rebase [develop]
 ```
