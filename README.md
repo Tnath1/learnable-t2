@@ -2,9 +2,9 @@
 ## - Explain version control.
 Version Control or Version Control Systems are software tools that help software engineers track the changes made to a file or set of files(code). It saves code snapshots when changes are made so that developers can recall specific versions later.
 
-Version control sytems allows developers to revert selected files back to it's previous state, revert the entire project back to it's previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when. Using a version control systems also means if at any point on a project you loose files or mess things up, you can easily recover.
+Version control sytems allows developers to revert selected files back to it's previous state, revert the entire project back to it's previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when. Using a version control systems also means if at any point on a project you loose files or mess things up, you can easily recover. The system makes sure that team members can collaborate effectively on the same project and making sure that team members are working on the latest version of the file or project. Examples include perforce, Beanstalk, AWS codeCommit, e.t.c
 ## - Explain the  difference between git and github.
-The major difference bwtwen git and git hub is:
+The major difference bwtween git and git hub is:
 * Git is a version control system that help software developers track their code changes or snapshorts of their code changes over time.
 * GitHub is a web-based hosting service for git repositories, In a nutshell, you can use Git without GitHub, but, You cannot use GitHub without Git.
 ## - List 3 other github alternatives.
@@ -34,7 +34,7 @@ git pull [remote] [branch]
 * Updates your working directory to reflect the changes.
 
 ## - Explain in simple terms git rebase and the command for it.
-In simple terms, git rebase rewrites commits form one branch unto another branch or moves commits from one branch (e.g main) to another branch(e.g develop). The command for that is below: 
+In simple terms, git rebase rewrites commits fromm one branch unto another branch or moves commits from one branch (e.g main) to another branch(e.g develop). The command for that is below: 
 ```bash
 git rebase [develop]
 ```
